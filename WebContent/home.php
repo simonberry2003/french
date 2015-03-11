@@ -12,7 +12,7 @@
 	<nav class="navbar navbar-default">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="#">FTS</a>
+				<a class="navbar-brand" href="home.php">FTS</a>
 			</div>
 
 			<div class="collapse navbar-collapse"
