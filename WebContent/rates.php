@@ -9,24 +9,20 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-	<nav class="navbar navbar-default">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="home.php">FTS</a>
-			</div>
-
-			<div class="collapse navbar-collapse"
-				id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav">
-					<li><a href="home.php">Home</a></li>
-					<li><a href="services.php">Services</a></li>
-					<li class="active"><a href="rates.php">Rates</a></li>
-                    <li><a href="contact.php">Contact</a></li>
-                    <li><a href="about.php">About</a></li>
-                    <li><a href="portfolio.php">Portfolio</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+    <?php $page="rates" ?>
+    <?php include "menu.php" ?>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">French Translation Services</h3>
+        </div>
+        <div class="panel-body">
+            <p>Lorem ipsum dolor sit amet, at nam cotidieque eloquentiam, eum
+                nonumy menandri ad, solet maluisset corrumpit vix te. Eu amet
+                tractatos vis. Meliore gubergren an quo. Pro graeci iriure et.
+                Impetus dolorum in usu, eam utinam delicata repudiare in, at eum
+                commodo assueverit.
+        </div>
+        <?php include "footer.php" ?>
+    </div>
 </body>
 </html>
