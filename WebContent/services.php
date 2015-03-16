@@ -9,20 +9,16 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <?php $page="services" ?>
-    <?php include "menu.php" ?>
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <h3 class="panel-title">French Translation Services</h3>
-        </div>
-        <div class="panel-body">
-            <p>Lorem ipsum dolor sit amet, at nam cotidieque eloquentiam, eum
-                nonumy menandri ad, solet maluisset corrumpit vix te. Eu amet
-                tractatos vis. Meliore gubergren an quo. Pro graeci iriure et.
-                Impetus dolorum in usu, eam utinam delicata repudiare in, at eum
-                commodo assueverit.
-        </div>
-        <?php include "footer.php" ?>
-    </div>
+	<?php $page="services" ?>
+	<?php include "menu.php" ?>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">Services We Offer</h3>
+		</div>
+		<div class="panel-body">
+			<?php include "dummy.php" ?>
+		</div>
+		<?php include "footer.php" ?>
+	</div>
 </body>
 </html>
