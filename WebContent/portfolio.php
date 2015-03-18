@@ -10,15 +10,19 @@
 </head>
 <body>
 	<?php $page="portfolio" ?>
-	<?php include "menu.php" ?>
-	<div class="panel panel-default">
-		<div class="panel-heading">
-			<h3 class="panel-title">Previous Work</h3>
-		</div>
+	<div class="container">
+		<?php include "menu.php" ?>
 		<div class="panel-body">
-			<?php include "dummy.php" ?>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title">Previous Work</h3>
+				</div>
+				<div class="panel-body">
+					<?php include "dummy.php" ?>
+				</div>
+			</div>
+			<?php include "footer.php" ?>
 		</div>
-		<?php include "footer.php" ?>
 	</div>
 </body>
 </html>
